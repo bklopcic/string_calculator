@@ -6,6 +6,10 @@ class StringCalculatorTest {
 
     @Test
     void add() {
-        
+        StringCalculator calculator = new StringCalculator();
+
+        int result = calculator.add("");
+
+        assertEquals(0, result, "Failed on empty string");
     }
 }
