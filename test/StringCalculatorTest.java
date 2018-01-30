@@ -22,9 +22,9 @@ class StringCalculatorTest {
         StringCalculator calculator = new StringCalculator();
 
         //single number
-        String[] testVals = {"-9999", "-1", "0", "000", "1", "7", "10000987654321"};
+        String[] testVals = {"-9999", "-1", "0", "000", "1", "7", "2147483647"};
         for (int  i = 0; i < testVals.length; i++) {
-            assertEquals(testVals[i], calculator.add(testVals[i]), "Failed to add single number");
+            assertEquals(Integer.parseInt(testVals[i]), calculator.add(testVals[i]), "Failed to add single number");
         }
     }
 }
