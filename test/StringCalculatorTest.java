@@ -11,9 +11,12 @@ class StringCalculatorTest {
     {
         StringCalculator calculator = new StringCalculator();
 
-        int result = calculator.add("");
+        assertEquals(0, calculator.add(""), "Failed on empty string");
 
-        assertEquals(0, result, "Failed on empty string");
+        assertEquals(10, "1\n2\n3\n4", "Failed on newline delimited string string");
+        assertEquals(10, "1\n2,3,4", "Failed on newline delimited string string");
+        assertEquals(10, "1,2,3\n4", "Failed on newline delimited string string");
+        assertEquals(10, "1\n2,3\n4", "Failed on newline delimited string string");
     }
 
     @Test
