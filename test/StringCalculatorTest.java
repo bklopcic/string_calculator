@@ -48,7 +48,7 @@ class StringCalculatorTest {
         StringCalculator calculator = new StringCalculator();
 
         assertEquals(-29997, calculator.add("-9999,-9999,-9999"), "Failed to add three numbers");
-        assertEquals(9806, calculator.add("-1,23,0,9782"), "Failed to add five numbers");
+        assertEquals(9804, calculator.add("-1,23,0,9782"), "Failed to add five numbers");
         assertEquals(0, calculator.add("0,0,0,0,0"), "Failed to add five zeros");
         assertEquals(99, calculator.add("2,5,-10,54,7,19,22"), "Failed to add 7 numbers");
         assertEquals(36, calculator.add("1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"), "Failed to add 36 numbers");
