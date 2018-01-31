@@ -6,7 +6,14 @@ public class StringCalculator
         {
             return 0;
         }
+        String[] toAdd = numbers.split(",");
 
-        return Integer.parseInt(numbers);
+        int total = 0;
+
+        for (int i = 0; i < (toAdd.length > 2 ? 2 : toAdd.length); i++)
+        {
+            total += Integer.parseInt(toAdd[i]);
+        }
+        return total;
     }
 }
