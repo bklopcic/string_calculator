@@ -6,6 +6,7 @@ public class StringCalculator
         {
             return 0;
         }
+        numbers = numbers.replace("\n", ",");
         String[] toAdd = numbers.split(",");
 
         int total = 0;
