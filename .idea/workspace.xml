@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d22e8f32-8fd3-43ab-99e3-a3d8f8d04252" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/StringCalculator.java" afterPath="$PROJECT_DIR$/src/StringCalculator.java" />
-      <change beforePath="$PROJECT_DIR$/test/StringCalculatorTest.java" afterPath="$PROJECT_DIR$/test/StringCalculatorTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +17,8 @@
       <file leaf-file-name="StringCalculator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/StringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="60" lean-forward="false" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+            <state relative-caret-position="68">
+              <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -407,8 +406,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="60" lean-forward="false" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+        <state relative-caret-position="68">
+          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
           <folding />
         </state>
       </provider>
