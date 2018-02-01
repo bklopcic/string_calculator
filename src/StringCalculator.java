@@ -2,11 +2,12 @@ public class StringCalculator
 {
     public int add(String numbers)
     {
+        //check for empty string
         if (numbers.equals(""))
         {
             return 0;
         }
-        numbers = numbers.replace("\n", ",");//This makes sense
+        numbers  = numbers.replaceAll("[^0-9-,]", ",");
         String[] toAdd = numbers.split(",");
 
         int total = 0;

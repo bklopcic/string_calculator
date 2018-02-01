@@ -17,6 +17,11 @@ class StringCalculatorTest {
         assertEquals(10, calculator.add("1\n2,3,4"), "Failed on newline delimited string string");
         assertEquals(10, calculator.add("1,2,3\n4"), "Failed on newline delimited string string");
         assertEquals(10, calculator.add("1\n2,3\n4"), "Failed on newline delimited string string");
+
+        assertEquals(10, calculator.add("1$2|3*4"), "Failed on special character delimited string string");
+        assertEquals(8, calculator.add("-1+2+3+4"), "Failed on special character delimited string string");
+        assertEquals(-10, calculator.add("-1)-2&-3?-4"), "Failed special character delimited string string");
+        assertEquals(10, calculator.add("1f2V3=4"), "Failed on special character delimited string string");
     }
 
     @Test
