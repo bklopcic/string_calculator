@@ -55,5 +55,10 @@ class StringCalculatorTest {
         assertEquals(0, calculator.add("0,0,0,0,0"), "Failed to add five zeros");
         assertEquals(99, calculator.add("2,5,-10,54,7,19,22"), "Failed to add 7 numbers");
         assertEquals(36, calculator.add("1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"), "Failed to add 36 numbers");
+
+        String teststring11="26,35,12,60";
+        int addret11=calculator.add(teststring11);
+        assertEquals(133,addret11);
+
     }
 }
