@@ -6,8 +6,9 @@ public class StringCalculator
         {
             return 0;
         }
-        numbers = numbers.replace("\n", ",");//This makes sense
-        String[] toAdd = numbers.split(",");
+        //numbers = numbers.replace("\n", ",");//This makes
+        System.out.println("This dont work");
+        String[] toAdd = numbers.split("[/ \n\t\r.,;:!?(){]");
 
         int total = 0;
 

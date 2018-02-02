@@ -60,5 +60,17 @@ class StringCalculatorTest {
         int addret11=calculator.add(teststring11);
         assertEquals(133,addret11);
 
+        String teststring1=";\n1;2";
+        int addret1=calculator.add(teststring1);
+        assertEquals(3,addret1);
+
+        String teststring2=";34\\n-1;26";
+        int addret2=calculator.add(teststring2);
+        assertEquals(59,addret2);
+
+        String teststring3=";0\\n0;0";
+        int addret3=calculator.add(teststring3);
+        assertEquals(59,addret3);
+
     }
 }
